@@ -1,0 +1,124 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {    
+    background-color: #EFD9CE;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    background-color: #b23a48;
+    width: 300px;
+    margin: 15% auto;
+    padding: 20px;    
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #d7cadf;
+    text-shadow: 3px 2px #ae1a1a;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #two{
+    background-color: #fcb9b2;
+    color: #461220;
+    width: 100%;
+    padding: 10px;    
+    margin-bottom: 7px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8c2f39;
+    border: 2px solid #f9f7f7;
+  }
+  
+  #new{
+    color: white;
+    margin-top: 3px;
+    font-size: small;
+    margin-right: 20px;
+  }
+  
+  header{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 70px;
+    background-color: #461220;
+    border: 2px solid black;
+    color:#EFD9CE;
+}
+  #logo{
+    color: orange;
+    font-size: 25px;
+  }
+  #search{
+    background-color: orange;
+  }
+  #head{
+    margin-top: 20px;
+    color: #fed0bb;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px; 
+}
+
+ 
+#foot{
+  color: #EFD9CE;
+  text-decoration:none ;
+}
+  .footer-col{
+    display: inline-block;
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+    color: #EFD9CE;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 50px;
+  }
+  footer{
+    background-color: #461220;
+    border: 2px solid black;
+  }
+  h4{
+    font-size: 20px;
+  }
+  #search{
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+#hey{
+    margin-top: 20px;
+    height: 30px;
+    border: #EFD9CE;
+    border-radius: 5px;
+    margin-left: 60px ;
+}
+#logo{
+  margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+  
+  

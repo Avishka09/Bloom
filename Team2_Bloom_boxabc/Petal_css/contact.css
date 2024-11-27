@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+body{
+    background-color: #EED9CE;
+}
+*{
+    margin: 0;
+    padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form{
+    background-color: #b23a48;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 34px;
+    margin-top: 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35vw;
+    margin-top: 12px;
+    
+}
+.cage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 13px 10px;
+}
+#submit:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.contact-info{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b23a48;
+    margin-top: 15px;
+    overflow: scroll;
+    border-radius: 34px;
+}
+.contact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fed0bb;
+    height: 50px;
+    padding: 30px 30px;
+    border-radius: 27px;
+    transition: transform 0.5s ease-in-out;
+    /* height: 80px;
+    width: 80px; */
+}
+.contact-card:hover{
+    transform: scale(1.15);
+    
+}
+.card-container{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+#search{
+    background-color: orange;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+#hey{
+    margin-top: 20px;
+    height: 30px;
+    border: #EFD9CE;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+#logo{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+#head{
+    margin-top: 20px;
+    color: #fed0bb;
+    text-decoration: none;
+    font-size: 20px; 
+    margin-left: 50px;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 70px;
+    background-color: #461220;
+    border: 2px solid black;
+    color:#EFD9CE;
+}
+#foot{
+    color: #EFD9CE;
+    text-decoration:none ;
+}
+.footer-col{
+    display: inline-block;
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+    color: #EFD9CE;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #461220;
+    border: 2px solid black;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="../Petal_css/rbac.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../assets/Logo.png" height="60px" width="100px">
+        <a id="head" href="SignUpPage1.html">Sign up</a>
+        <a id="head" href="index1.html">Home</a>
+        <a id="head" href="products.html">Product</a>
+        <a id="head" href="cart.html">My cart</a>
+        <a id="head" href="contact.html">Contact Us</a>
+        <a id="head" href="about_us.html">About Us</a>
+        <a id="head" href="past.html">Past orders</a>
+        <a id="head" href="rbac.html">Our Members</a>
+        <input id="search-box" placeholder="Search user by name">
+        <button id="search" onclick="searchUser()">Search</button>
+    </header>
+    <br><br><br><br><br>
+
+    <div class="user-management-container">
+        <h2>User Management</h2>
+        <button class="add-user-btn" onclick="addUser()">Add User</button>
+        
+        <div class="filter-container">
+            <select id="role-filter" onchange="filterUsers()">
+                <option value="">All Roles</option>
+                <option value="Customer">Customer</option>
+                <option value="Seller">Seller</option>
+            </select>
+            <select id="status-filter" onchange="filterUsers()">
+                <option value="">All Statuses</option>
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="user-table-body">
+                <!-- User rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../Petal js/rbac.js"></script>
+</body>
+</html>
